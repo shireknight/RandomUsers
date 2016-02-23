@@ -1,0 +1,14 @@
+{
+  "runtimes": {
+    "win7": {
+      "System.Private.Uri": {
+        "runtime.win7.System.Private.Uri": "4.0.1-beta-23516"
+      }
+    },
+    "unix": {
+      "System.Private.Uri": {
+        "runtime.unix.System.Private.Uri": "4.0.1-beta-23516"
+      }
+    }
+  }
+}
