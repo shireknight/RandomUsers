@@ -45,7 +45,7 @@ namespace RandomUsersV2
             using(HttpClient client = new HttpClient())
             {
                 var response = await client.GetAsync(uri);
-                string payload = response.Content.ReadAsStringAsync().Result;
+                string payload = await response.Content.ReadAsStringAsync();
                 // construct a new User with the payload
                 User user = new User(payload);
                 UserList.Add(user);    
